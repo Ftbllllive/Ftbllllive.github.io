@@ -1,7 +1,3 @@
-html{
-	background-color: #000000;
-}
-
 header{
 	height: 55px;
 }
@@ -13,11 +9,12 @@ h1{
 	justify-content: end;
 }
 .logo, .logo_green{
-	height: 60px;
+	height: 40px;
 	padding-left: 10px;
 }
 .main_div{
 	padding: 0 10px;
+	border-radius: 0;
 }
 .main_page{
 	padding: 0;
@@ -25,16 +22,7 @@ h1{
 .title_img{
 	height: 25px;
 	width: inherit;
-	padding-right: 15px;
-	vertical-align: middle;
-	align-items: center;
-	text-align: center;
-}
-.align_center2{
-	vertical-align: middle;
-	align-items: center;
-	text-align: center;
-	margin-top: 21px;
+	padding-right: 10px;
 }
 .link{
 	padding-left: 20px;
@@ -111,7 +99,6 @@ h1{
 .team_title{
 	overflow: hidden;
 	text-overflow: ellipsis;
-	width: 74px;
 }
 .player_block{
 	width: 100%;
@@ -249,10 +236,9 @@ h1{
 .time_score{
 	font-size: 45px;
 }
-.status_match, .info_time, .date_time .h_left, .h_right, .players, .players_r{
+.status_match, .info_time, .h_left, .h_right, .players, .players_r{
 	font-size: 14px;
 }
-
 .league_tour {
     margin-bottom: 7px;
 }
@@ -313,10 +299,7 @@ h1{
 .index_lcol{
 	width: 100%;
 }
-.championats_section{
-	display: none;
-}
-.full{
+.full, .news_champ, .index_champ{
 	display: none;
 }
 .tg{
@@ -331,9 +314,13 @@ h1{
 	right: 10px;
 	z-index: 99999;
 }
-.live_block{
+.live_block2{
 	height: 50px;
 	font-weight: normal;
+}
+.champ_section{
+	display: block;
+	margin-bottom: 5px;
 }
 ::-webkit-scrollbar {
 	width: 1px;
@@ -362,7 +349,7 @@ h1{
 .lg_img{
 	height: 60px;
 	width: 60px;
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 }
 .lg_blockchen{
 	display: flex;
@@ -476,7 +463,7 @@ h1{
 	display: none;
 }
 .s_result{
-	left: 16px;
+	left: 24px;
     top: 44px;
 }
 .simple_a{
@@ -484,9 +471,6 @@ h1{
 }
 .two_point {
     margin: 0 15px;
-}
-iframe{
-	height: 200px!important;
 }
 .btn_a{
 	padding: 11px 40px;
@@ -517,6 +501,104 @@ iframe{
 }
 .ads_title{
 	margin-bottom: 10px;
+}
+.right_sec, .news_pic {
+    width: 100%;
+}
+.t_news_block, .other_news{
+	flex-direction: column;
+	border: none;
+}
+.other_news{
+	align-items: center;
+}
+.top_news{
+	height: auto;
+	border-bottom: 1px solid #e1e0e7;
+}
+.t_news_img{
+	border-radius: 8px;
+	width: 100%;
+}
+.short_info{
+	display: none;
+}
+.s_title_block{
+	width: 81%;
+	padding-right: 9px;
+}
+h3{
+	margin: 10px 0;
+	line-height: 1.4em;
+    font-size: 1.125rem;
+}
+.short_news a{
+	display: flex;
+}
+.s_img_block{
+	order: 2;
+	width: 69px;
+	height: 69px;
+	padding-top: 10px;
+}
+.short_news{
+	width: 92%;
+	margin: 0;
+	border-bottom: 1px solid #e1e0e7;
+	padding-bottom: 15px;
+}
+.short_news:last-child{
+	border: none;
+}
+.s_news_img{
+	height: 100%;
+    object-fit: cover;
+}
+.t_news_title{
+	padding: 0 7px;
+	width: 96%;
+}
+.t_img_block{
+	width: 96%;
+}
+.news_date{
+	font-size: 12px;
+}
+.pub_inn{
+	margin-left: 5px;
+    font-size: 13px;
+}
+.pub_logo{
+	width: 16px;
+    height: 16px;
+}
+iframe{
+	height: 272px;
+}
+.odd_left{
+	width: 85%;
+	justify-content: center;
+}
+.odd_right, .desctop, .tablet{
+	display: none;
+}
+.mob{
+	display: block;
+}
+.free_logo{
+	width: 270px;
+}
+.pic_small{
+	width: 98%;
+}
+.two_pic_block{
+	flex-direction: column;
+}
+.modal_hint{
+	width: 83%;
+}
+.theme-button{
+	margin: 0;
 }
 
 @media screen and (min-width: 560px){
